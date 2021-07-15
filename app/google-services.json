@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "704674540707",
+    "project_id": "mycanva-f9f97",
+    "storage_bucket": "mycanva-f9f97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704674540707:android:81d25152898098717a6316",
+        "android_client_info": {
+          "package_name": "com.example.mycanva"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704674540707-n3v50pd2gcskmjtim4seea40pt3bsd0d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mycanva",
+            "certificate_hash": "d26b41662b4eb11d59ca375e41e797de38894acf"
+          }
+        },
+        {
+          "client_id": "704674540707-j1hgo69crge1rt69il2l7f25m6ehb12j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkJ7L99uO7fioIA0ueoWWLMfBPz6h6Mfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704674540707-j1hgo69crge1rt69il2l7f25m6ehb12j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
