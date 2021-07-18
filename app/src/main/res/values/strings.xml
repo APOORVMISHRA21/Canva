@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">MyCanva</string>
+    <string name="facebook_app_id">785505498803781</string>
+    <string name="fb_login_protocol_scheme">fb785505498803781</string>
+    <string name="facebook_app_secret_key">d4ab636a62f2445906bf64e720b6ecb4</string>
 </resources>

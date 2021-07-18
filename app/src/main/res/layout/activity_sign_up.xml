@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:facebook="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -73,7 +74,7 @@
             android:shadowColor="@color/black"
             android:text="Google SignIn"
             android:textStyle="bold"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textAllCaps="false"/>
 
         <Button
@@ -88,8 +89,14 @@
             android:shadowColor="@color/black"
             android:text="FB SignIn"
             android:textStyle="bold"
-            android:textSize="16dp"
+            android:textSize="16sp"
             android:textAllCaps="false"/>
+
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/fb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
 
     </LinearLayout>
 
@@ -98,14 +105,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:cornerRadius="8dp"
         android:backgroundTint="@color/white"
         android:elevation="7dp"
         android:shadowColor="@color/black"
         android:text="Sign Up"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:textSize="16dp"
+        android:textSize="16sp"
         android:textAllCaps="false"/>
 
 </LinearLayout>
